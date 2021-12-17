@@ -224,8 +224,8 @@
     hide_output sudo add-apt-repository -y ppa:bitcoin/bitcoin
     hide_output sudo apt -y update
     apt_install libdb4.8-dev libdb4.8++-dev libdb5.3 libdb5.3++
-    sudo apt_install php7.3-memcache -y
-    sudo apt_install php7.3-memcached -y
+    sudo apt-install php7.3-memcache -y
+    sudo apt-install php7.3-memcached -y
 
     echo -e "$GREEN Done...$COL_RESET"
        
